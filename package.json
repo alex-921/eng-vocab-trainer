@@ -1,0 +1,40 @@
+{
+  "name": "eng-vocab-trainer",
+  "version": "1.0.0",
+  "description": "english vocabulary trainer",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --config webpack/webpack.dev.js",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "format": "prettier-eslint \"src/**/*.{ts,js,css,html}\"",
+    "fix": "prettier-eslint --write \"src/**/*.{ts,js,css,html}\""
+  },
+  "author": "x.alex@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/webpack-env": "^1.18.1",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "eslint": "^8.46.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "prettier": "^2.5.1",
+    "prettier-eslint": "^15.0.1",
+    "prettier-eslint-cli": "^7.1.0",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "ts-loader": "^9.2.6",
+    "typescript": "^5.1.6",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1",
+    "webpack-merge": "^5.7.3"
+  }
+}

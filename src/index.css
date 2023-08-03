@@ -1,0 +1,15 @@
+.letters {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter {
+  height: 38px;
+  width: 38px;
+}
+
+.stats-container {
+  text-align: left;
+}
